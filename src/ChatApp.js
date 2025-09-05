@@ -9,7 +9,7 @@ const ChatApp = () => {
     const [ans, setAns] = useState("");
 
     // IMPORTANT: Replace this with your actual API Key
-    const API_KEY = "AIzaSyA9wIBfAzONVxXARFhw7Mcp0_8gUB3ffS4"; // Make sure to replace this with your actual key
+    const API_KEY = "Your_API_KEY"; // Make sure to replace this with your actual key
 
     // UPDATED: Using the v1beta API and the gemini-1.5-flash-latest model
     const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${API_KEY}`;
